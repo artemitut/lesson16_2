@@ -1,0 +1,43 @@
+.ul1{
+    height: 50px;
+    width: 1170px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background-color: green;
+}
+li{
+    list-style-type: none;
+}
+.ul1 li {
+    width: 250px;
+    background-color: green;
+    padding: 16px;
+    color: white;
+}
+.li1:hover{
+    background-color: rgb(221, 175, 25);
+    transition: 0.5s;
+}
+.li2:hover{
+    background-color: rgb(28, 25, 221);
+    transition: 0.5s;
+}
+.li3:hover{
+    background-color: rgb(110, 25, 221);
+    transition: 0.5s;
+}
+.li4:hover{
+    background-color: rgb(221, 25, 25);
+    transition: 0.5s;
+}
+.splint {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.turt {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
