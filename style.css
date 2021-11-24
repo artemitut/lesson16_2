@@ -1,4 +1,4 @@
-.ul1{
+.uls{
     height: 50px;
     width: 1170px;
     display: flex;
@@ -8,8 +8,22 @@
 }
 li{
     list-style-type: none;
+    color: #fff;
+    background: green;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 16px;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
 }
-.ul1 li {
+.ul1{
+    visibility: hidden;
+    opacity: 0;
+}
+.uls li {
     width: 250px;
     background-color: green;
     padding: 16px;
@@ -40,4 +54,14 @@ li{
     position: fixed;
     left: 0;
     bottom: 0;
+}
+.li2:hover > .ul1{
+    visibility: visible;
+    opacity: 1;
+    left: -10px;
+    top: 300px;
+}
+.li2:hover > .ul1 li{
+    left: -56px;
+    top: 16px;
 }
