@@ -6,6 +6,9 @@
     margin: 0 auto;
     background-color: green;
 }
+img{
+    z-index: 0;
+}
 li{
     list-style-type: none;
     color: #fff;
@@ -16,10 +19,10 @@ li{
     width: 20%;
     padding: 16px;
     position: relative;
-    text-decoration: none;
     transition-duration: 0.5s;
+    z-index: 10;
 }
-.ul1{
+.ul2{
     visibility: hidden;
     opacity: 0;
 }
@@ -55,13 +58,59 @@ li{
     left: 0;
     bottom: 0;
 }
-.li2:hover > .ul1{
+.li2:hover > .ul2{
+    transition: 0.5s;
     visibility: visible;
     opacity: 1;
     left: -10px;
     top: 300px;
 }
-.li2:hover > .ul1 li{
+.li2:hover > .ul2 li{
+    left: -56px;
+    top: 16px;
+}
+.ul1{
+    visibility: hidden;
+    opacity: 0;
+}
+.li1:hover > .ul1{
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    left: -10px;
+    top: 300px;
+}
+.li1:hover > .ul1 li{
+    left: -56px;
+    top: 16px;
+}
+.ul3{
+    visibility: hidden;
+    opacity: 0;
+}
+.li3:hover > .ul3{
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    left: -10px;
+    top: 300px;
+}
+.li3:hover > .ul3 li{
+    left: -56px;
+    top: 16px;
+}
+.ul4{
+    visibility: hidden;
+    opacity: 0;
+}
+.li4:hover > .ul4{
+    transition: 0.5s;
+    visibility: visible;
+    opacity: 1;
+    left: -10px;
+    top: 300px;
+}
+.li4:hover > .ul4 li{
     left: -56px;
     top: 16px;
 }
